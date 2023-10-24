@@ -28,29 +28,65 @@
     background-image: linear-gradient(45deg, black, transparent);
 } */
 header{
-   width: auto;
+   width: 800px;
+   padding: 0 16px;
    display: flex;
+  
    height: 40px;
    background-color: #222222;
-   color: #0f79af;
+   color: #6c7174;
+   font-size: 23px;
+   font-family: Ember_Lt;
+   justify-content: center;
+
+  
 }
-#menu{
+header #logo{
     width: 800px;
+    height: 33px;
+    margin: 0 auto;
     display: flex;
-    height: 10px;
-    padding: 0px 12px;
+    margin-right: 250px;
+    justify-content: left;
+    background-color: #222222;
+     
 }
+header #menu{
+    width: 800px;
+    height: 10px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0px 16px;
+    text-decoration: none;
+    /* background-color: brown; */
+
+}
+a{
+    width: 800px;
+    height: 10px;
+    margin: 0 auto;
+    display: flex;
+    color: #9c9d9e;
+    padding: 0px 16px;
+    text-decoration: none;
+    /* background-color: chartreuse; */
+}
+/* a:hover {
+    text-decoration: underline;
+  } */
 .ContainerGeral{
     max-width: 800px;
+    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     justify-items: flex-start;
 }
 .txt2{
-font-family: AmazonEmber_Lt.woff;
-display: flex;
+    font-family: 'AmazonEmber_Lt.woff';
 }
-table{
-
+table #canais{
+    margin: 0 auto;
+    width: 150px;
+    display: wrap;
 }

@@ -10,3 +10,48 @@
     justify-content: space-around;
     justify-items: flex-start;
 }
+
+.menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333; /* Cor do texto do menu */
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff; /* Cor de fundo do submenu */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra do submenu */
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    display: block;
+    margin: 0;
+  }
+  
+  .submenu a {
+    color: #666; /* Cor do texto do submenu */
+    text-decoration: none;
+  }
+  
+  .submenu a:hover {
+    color: #333; /* Cor do texto do submenu quando o mouse passa por cima */
+  }
+  
